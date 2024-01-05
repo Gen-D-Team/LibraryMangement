@@ -5,6 +5,6 @@ Viết chương trình quản lý thư viện thực hiện các nhiệm vụ sa
 
 - Phân cấp hai mức người dùng của chương trình: người dùng bình thường (user) và người dùng cao cấp (admin). Người dùng bình thường không cần đăng nhập và chỉ có thể xem thông tin về sách trong thư viện. Người dùng cao cấp có thể sửa đổi thông tin thư viện (thêm, sửa và xóa).
 
-- Một quyển sách có các thông tin sau: mã số (isbn), tên sách (title), chủ đề (subject), tác giả (author), nhà xuất bản (publisher), ngày tháng xuất bản (date), số trang (pages), số bản copy trong thư viện (copies). Việc tìm kiếm được thực hiện trên các thông tin chính là: tên sách, chủ đề, tác giả, nhà xuất bản và năm xuất ban.
+- Một quyển sách có các thông tin sau: mã số (isbn), tên sách (title), chủ đề (subject), tác giả (author), nhà xuất bản (publisher), số trang (pages). Việc tìm kiếm được thực hiện trên các thông tin chính là: tên sách, chủ đề, tác giả, nhà xuất bản và năm xuất ban.
 
 - Người dùng có các thông tin chính là: mã người dùng (userid), tên truy cập (username), mật khẩu (password) và cấp người dùng.
