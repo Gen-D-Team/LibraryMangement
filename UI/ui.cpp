@@ -1,13 +1,12 @@
-#include <iostream>
 #include "ui.h"
 
 using namespace std;
 
-UI::UI()
+ui::ui()
 {
 }
 
-void UI::welcome_message()
+void ui::welcome_message()
 {
     int n;
 
@@ -26,6 +25,20 @@ void UI::welcome_message()
             cout << "this is case 2";
             break;
         default:
+            cout << "Exited the program" << endl;
             return;
     }
+}
+
+void ui::login_menu() {
+    cout << "Login Form:" << endl;
+
+}
+
+void ui::register_menu() {
+    cout << "Register Form: " << endl;
+}
+
+void ui::what_you_want() {
+
 }
